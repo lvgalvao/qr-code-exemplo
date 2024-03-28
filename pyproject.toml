@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "qr-code-exemplo"
+version = "0.1.0"
+description = ""
+authors = ["Luciano Filho <lvgalvaofilho@gmail.com>"]
+readme = "README.md"
+packages = [{include = "qr_code_exemplo"}]
+
+[tool.poetry.dependencies]
+python = "3.10.7"
+qrcode = {extras = ["pil"], version = "^7.4.2"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
