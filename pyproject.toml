@@ -9,6 +9,7 @@ packages = [{include = "qr_code_exemplo"}]
 [tool.poetry.dependencies]
 python = "3.10.7"
 qrcode = {extras = ["pil"], version = "^7.4.2"}
+pydantic = "^2.6.4"
 
 
 [build-system]
